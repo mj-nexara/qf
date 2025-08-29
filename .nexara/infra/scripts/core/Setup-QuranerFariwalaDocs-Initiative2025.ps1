@@ -4,7 +4,7 @@
 # └────────────────────────────────────────────┘
 
 function Setup-QuranerFariwalaDocs-Initiative2025 {
-    $base = "C:\MJ-Ahmad\quraner-fariwala\Docs\Initiative2025"
+    $base = "C:\MJ-Ahmad\qf\Docs\Initiative2025"
 
     $folders = @(
         "$base\Planning",
