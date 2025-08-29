@@ -8,7 +8,7 @@ function Generate-DistrictBrief {
         [string]$DistrictName
     )
 
-    $basePath     = "C:\mj-ahmad\quranerfariwala\Docs\Legacy\DistrictNetwork\$DistrictName"
+    $basePath     = "C:\mj-ahmad\qf\Docs\Legacy\DistrictNetwork\$DistrictName"
     $contributors = "$basePath\Contributors.md"
     $stats        = "$basePath\DistributionStats.csv"
     $testimonials = "$basePath\Testimonials.txt"

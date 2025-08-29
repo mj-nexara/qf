@@ -13,7 +13,7 @@ function Log-Conspirator {
         [string]$VerifiedBy = "MJ Ahmad"
     )
 
-    $logPath = "C:\mj-ahmad\quranerfariwala\Docs\Legal\Conspirators\$Name\Timeline.csv"
+    $logPath = "C:\mj-ahmad\qf\Docs\Legal\Conspirators\$Name\Timeline.csv"
 
     # Ensure log file exists with headers
     if (-not (Test-Path $logPath)) {
