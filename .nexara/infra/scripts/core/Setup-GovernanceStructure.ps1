@@ -4,7 +4,7 @@
 # └────────────────────────────────────────────┘
 
 function Setup-GovernanceStructure {
-    $base = "C:\MJ-Ahmad\quraner-fariwala\Docs\Governance"
+    $base = "C:\MJ-Ahmad\qf\Docs\Governance"
 
     $folders = @(
         "$base\LegalIdentity",
