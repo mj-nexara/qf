@@ -1,5 +1,5 @@
 function Setup-QuranLab {
-    $base = "C:\MJ-Ahmad\quraner-fariwala\Docs\QuranLab"
+    $base = "C:\MJ-Ahmad\qf\Docs\QuranLab"
 
     $folders = @(
         "$base\Tilawat\RecitationArchive",
