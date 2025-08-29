@@ -1,7 +1,7 @@
-function MJ-QF-AR {
+function Archive-Records {
     param (
         [string]$SourcePath,
-        [string]$ArchivePath = "C:\mj-ahmad\Quraner-Fariwala\archive"
+        [string]$ArchivePath = "C:\mj-ahmad\qf\archive"
     )
 
     $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"

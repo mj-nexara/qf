@@ -10,7 +10,7 @@ function Generate-WarningBanner {
         default { "⚠️ Language not supported." }
     }
 
-    $bannerPath = "C:\mj-ahmad\QuranerFariwala\docs\warning_$Language.txt"
+    $bannerPath = "C:\mj-ahmad\qf\docs\warning_$Language.txt"
     Set-Content -Path $bannerPath -Value $bannerText
     Write-Host "Generated warning banner in $Language"
 }

@@ -6,7 +6,7 @@ function Generate-ProgressReport {
         [string]$NextSteps
     )
 
-    $reportPath = "C:\MJ-Ahmad\quraner-fariwala\Docs\Initiative2025\Monitoring\ProgressReports\$Month-Report.md"
+    $reportPath = "C:\MJ-Ahmad\qf\Docs\Initiative2025\Monitoring\ProgressReports\$Month-Report.md"
 
     $report = @()
     $report += "# 📊 Monthly Progress Report — $Month"

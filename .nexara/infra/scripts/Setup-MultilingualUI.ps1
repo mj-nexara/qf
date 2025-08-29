@@ -1,6 +1,6 @@
 function Setup-MultilingualUI {
     $languages = @("Bangla", "English", "Arabic")
-    $uiPath = "C:\mj-ahmad\Quraner-Fariwala\docs\ui"
+    $uiPath = "C:\mj-ahmad\qf\docs\ui"
 
     foreach ($lang in $languages) {
         $file = Join-Path $uiPath "ui_$lang.txt"

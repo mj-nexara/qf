@@ -1,6 +1,6 @@
 function Get-S-2018 {
     param (
-        [string]$RootPath = "C:\mj-ahmad\quraner-fariwala\Docs\Legacy\Timeline\2018"
+        [string]$RootPath = "C:\mj-ahmad\qf\Docs\Legacy\Timeline\2018"
     )
 
     if (-not (Test-Path $RootPath)) {

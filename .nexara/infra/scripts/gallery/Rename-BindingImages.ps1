@@ -4,7 +4,7 @@
 # └────────────────────────────────────────────┘
 
 function Rename-BindingImages {
-    $folder = "C:\MJ-Ahmad\quraner-fariwala\public\images\binding\normalized"
+    $folder = "C:\MJ-Ahmad\qf\public\images\binding\normalized"
     $images = Get-ChildItem -Path $folder -Include *.jpg, *.jpeg, *.png -File | Sort-Object LastWriteTime
     $counter = 1
 

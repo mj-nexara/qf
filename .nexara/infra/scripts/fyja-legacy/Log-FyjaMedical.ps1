@@ -14,7 +14,7 @@ function Log-FyjaMedical {
         [string]$VerifiedBy = "MJ Ahmad"
     )
 
-    $logPath = "C:\mj-ahmad\fyja-legacy\Docs\MedicalLog.csv"
+    $logPath = "C:\mj-ahmad\qf\docs\fyja-legacy\Docs\MedicalLog.csv"
 
     # Ensure log file exists with headers
     if (-not (Test-Path $logPath)) {

@@ -1,6 +1,6 @@
-function 11 {
+function List-FolderContents {
     param (
-        [string]$TargetPath = "C:\mj-ahmad\quraner-fariwala"
+        [string]$TargetPath = "C:\mj-ahmad\qf"
     )
 
     if (-not (Test-Path $TargetPath)) {

@@ -1,6 +1,6 @@
-function MJ-QF {
+function Initialize-Project {
     param (
-        [string]$ProjectName = "QuranerFariwala"
+        [string]$ProjectName = "qf"
     )
 
     $basePath = "C:\mj-ahmad\$ProjectName"

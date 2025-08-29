@@ -5,7 +5,7 @@ function Log-Contributor {
         [string]$Notes
     )
 
-    $logPath = "C:\mj-ahmad\QuranerFariwala\contributors\log.csv"
+    $logPath = "C:\mj-ahmad\qf\contributors\log.csv"
     $entry = "$((Get-Date).ToString('s')),$Name,$Role,$Notes"
     Add-Content -Path $logPath -Value $entry
 

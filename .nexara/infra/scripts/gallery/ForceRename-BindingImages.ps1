@@ -5,7 +5,7 @@
 # └────────────────────────────────────────────┘
 
 function ForceRename-BindingImages {
-    $sourceFolder = "C:\MJ-Ahmad\quraner-fariwala\public\images\binding\normalized"
+    $sourceFolder = "C:\MJ-Ahmad\qf\public\images\binding\normalized"
     $tempFolder = "$sourceFolder\renamed"
 
     # Create output folder

@@ -1,6 +1,6 @@
 function Get-LegacySummary {
     param (
-        [string]$RootPath = "C:\mj-ahmad\quraner-fariwala"
+        [string]$RootPath = "C:\mj-ahmad\qf"
     )
 
     $legacyFolders = Get-ChildItem -Path $RootPath -Recurse -Directory |

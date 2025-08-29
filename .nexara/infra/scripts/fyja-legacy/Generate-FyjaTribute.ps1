@@ -5,7 +5,7 @@
 
 function Generate-FyjaTribute {
     param (
-        [string]$OutputPath = "C:\mj-ahmad\fyja-legacy\Docs\FyjaTribute.txt"
+        [string]$OutputPath = "C:\mj-ahmad\qf\docs\fyja-legacy\Docs\FyjaTribute.txt"
     )
 
     $tribute = @()
@@ -36,7 +36,7 @@ function Generate-FyjaTribute {
 
     # Ethical Reflection
     $tribute += "🛡️ MJ’s Statement:"
-    $tribute += "“Fyja’s life was sacred. Her suffering was unjust. Her memory will be preserved—not with vengeance, but with truth.”"
+    $tribute += "Fyja’s life was sacred. Her suffering was unjust. Her memory will be preserved—not with vengeance, but with truth."
     $tribute += "`n"
 
     # Closing

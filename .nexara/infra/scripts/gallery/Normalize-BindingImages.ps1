@@ -6,7 +6,7 @@
 
 # Requires: ImageMagick installed and added to PATH (for resizing)
 function Normalize-BindingImages {
-    $folder = "C:\MJ-Ahmad\quraner-fariwala\public\images\binding"
+    $folder = "C:\MJ-Ahmad\qf\public\images\binding"
     $outputFolder = "$folder\normalized"
     if (-not (Test-Path $outputFolder)) {
         New-Item -ItemType Directory -Path $outputFolder | Out-Null

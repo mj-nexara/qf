@@ -5,7 +5,7 @@
 # └────────────────────────────────────────────┘
 
 function List-BindingImages {
-    $folder = "C:\MJ-Ahmad\quraner-fariwala\public\images\binding\normalized"
+    $folder = "C:\MJ-Ahmad\qf\public\images\binding\normalized"
     $outputFile = "$folder\binding-image-list.txt"
 
     $images = Get-ChildItem -Path $folder -Include *.jpg, *.jpeg, *.png -File | Sort-Object LastWriteTime

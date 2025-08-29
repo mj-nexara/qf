@@ -1,6 +1,6 @@
 # Resize images listed in image-list.txt
 $sourceFolder = "C:\Users\quran\OneDrive\Pictures\Camera Roll\2023"
-$targetFolder = "C:\MJ-Ahmad\quraner-fariwala\public\videos\cover"
+$targetFolder = "C:\MJ-Ahmad\qf\public\videos\cover"
 $listFile = "$sourceFolder\video-list.txt"
 
 # Ensure target folder exists
