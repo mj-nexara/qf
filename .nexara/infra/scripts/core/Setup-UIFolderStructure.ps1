@@ -4,7 +4,7 @@
 # └────────────────────────────────────────────┘
 
 function Setup-UIFolderStructure {
-    $base = "C:\MJ-Ahmad\quraner-fariwala\Docs\UI"
+    $base = "C:\MJ-Ahmad\qf\Docs\UI"
 
     $folders = @(
         "$base\Components\Header",
