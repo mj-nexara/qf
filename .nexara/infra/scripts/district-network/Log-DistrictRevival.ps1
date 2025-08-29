@@ -8,7 +8,7 @@ function Log-DistrictRevival {
         [string]$VerifiedBy = "MJ Ahmad"
     )
 
-    $logPath = "C:\MJ-Ahmad\quraner-fariwala\Docs\Initiative2025\DistrictMobilization\RevivalLogs.csv"
+    $logPath = "C:\MJ-Ahmad\qf\Docs\Initiative2025\DistrictMobilization\RevivalLogs.csv"
 
     if (-not (Test-Path $logPath)) {
         "Timestamp,District,Contributor,Role,ContactMode,Status,VerifiedBy" | Out-File $logPath -Encoding UTF8

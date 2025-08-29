@@ -4,7 +4,7 @@
 # └────────────────────────────────────────────┘
 
 function Generate-BankAccountReadmes {
-    $base = "C:\MJ-Ahmad\quraner-fariwala\Docs\Finance\Accounts\BankAccounts"
+    $base = "C:\MJ-Ahmad\qf\Docs\Finance\Accounts\BankAccounts"
 
     $accounts = @(
         @{

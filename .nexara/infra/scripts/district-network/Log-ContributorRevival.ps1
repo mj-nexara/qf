@@ -13,7 +13,7 @@ function Log-ContributorRevival {
         [string]$VerifiedBy = "MJ Ahmad"
     )
 
-    $logPath = "C:\mj-ahmad\quranerfariwala\Network\DistrictRegistry.csv"
+    $logPath = "C:\mj-ahmad\qf\Network\DistrictRegistry.csv"
 
     # Ensure log file exists with headers
     if (-not (Test-Path $logPath)) {

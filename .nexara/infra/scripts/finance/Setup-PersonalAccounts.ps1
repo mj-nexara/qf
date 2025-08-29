@@ -4,7 +4,7 @@
 # └────────────────────────────────────────────┘
 
 function Setup-PersonalAccounts {
-    $base = "C:\MJ-Ahmad\quraner-fariwala\Docs\Finance\Accounts\PersonalAccounts"
+    $base = "C:\MJ-Ahmad\qf\Docs\Finance\Accounts\PersonalAccounts"
 
     $folders = @(
         "$base\AuditAnchors"

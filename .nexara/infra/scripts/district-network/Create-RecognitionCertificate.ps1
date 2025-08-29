@@ -12,7 +12,7 @@ function Create-RecognitionCertificate {
         [string]$Date = (Get-Date -Format "yyyy-MM-dd")
     )
 
-    $outputPath = "C:\mj-ahmad\quranerfariwala\Docs\Legacy\DistrictNetwork\$District\Certificates"
+    $outputPath = "C:\mj-ahmad\qf\Docs\Legacy\DistrictNetwork\$District\Certificates"
     if (-not (Test-Path $outputPath)) {
         New-Item -ItemType Directory -Path $outputPath | Out-Null
     }
