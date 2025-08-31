@@ -6,7 +6,7 @@ const Footer = () => (
   <div className="footer">
     <p>© 2025 Quraner Fariwala | Powered by Ethical Legacy</p>
     <nav>
-      <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/quranlab">QuranLab</Link> | <Link to="/district">Districts</Link> | <Link to="/legal">Legal</Link>
+      <Link to="/qurangallery">gallery</Link> | <Link to="/quranvideogallery">videogallery</Link> | <Link to="/quranpagespreview">QuranPagesPreview</Link>
     </nav>
   </div>
 );
